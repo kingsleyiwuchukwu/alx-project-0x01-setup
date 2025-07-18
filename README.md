@@ -57,3 +57,31 @@ my-nextjs-app/
 * `src/styles`: Global CSS and Tailwind configuration.
 * `src/utils`: Helper functions and utility scripts.
 * `src/types`: TypeScript interfaces and types.
+
+---
+
+## 🗂️ State Management Options
+
+- React Context API: Simple global state (e.g., user authentication).
+- Redux / Zustand: For more complex applications.
+  
+### Redux Example Structure:
+  src/
+└── store/
+    ├── actions/
+    ├── reducers/
+    ├── selectors/
+    └── store.ts
+
+- Server-side State: Use Next.js features like getServerSideProps and getStaticProps for data fetching.
+
+---
+
+## 🎨 Styling with TailwindCSS
+- Global Styles: globals.css with:
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+- Component-Level Styles: Use utility classes directly or @apply in CSS modules for complex styles.
