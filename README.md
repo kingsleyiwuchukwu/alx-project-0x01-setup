@@ -85,3 +85,41 @@ my-nextjs-app/
 @tailwind utilities;
 
 - Component-Level Styles: Use utility classes directly or @apply in CSS modules for complex styles.
+
+
+---
+
+## 📦 Dependencies
+- `next`
+- `react`
+- `react-dom`
+- `typescript`
+- `tailwindcss`
+- `eslint`
+- `@headlessui/react` (for modals)
+
+---
+
+## 💡 Bonus Tips
+- Enhance UX with **loading states** while fetching data
+- Add **form validation** when adding posts/users
+- Implement **pagination** for long lists of posts or users
+- Apply **dark mode support** with Tailwind CSS
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**.
+
+---
+
+## 🔗 Resources
+- [Next.js Documentation](https://nextjs.org/docs)
+- [TypeScript Docs](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
